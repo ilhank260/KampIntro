@@ -26,5 +26,14 @@ namespace GenericsIntro
             }
             items[items.Length - 1] = item; // items a gelen son elemanı ekle. 
         }
+        public int Length // Eleman sayımızı yazdırmak için
+        {
+            get{ return items.Length; }
+        }
+
+        public T[] Items
+        {
+            get { return items; }
+        }
     }
 }
